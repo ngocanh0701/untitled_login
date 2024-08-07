@@ -1,16 +1,14 @@
-# untitled_login
+This project is only about login and registration, using RestAPI to read data from MySQL, the data in the data will store the information of the logged-in and the password has also been encrypted.
 
-A new Flutter project.
+![Example Image](https://github.com/ngocanh0701/untitled_login/blob/main/lib/images/image_register.png)
 
-## Getting Started
+On the registration page, the password can be hidden or hidden, and the password will be updated from weak to strong. The password re-entry section, if it does not match the above password, a message will be displayed. 
 
-This project is a starting point for a Flutter application.
+![Example Image](https://github.com/ngocanh0701/untitled_login/blob/main/lib/images/image_login.png)
 
-A few resources to get you started if this is your first Flutter project:
+On the login page, if the login is incorrect, a notification will be displayed and the user will be forced to enter again, if the login is correct, it will be forwarded to the home page
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+![Example Image](https://github.com/ngocanh0701/untitled_login/blob/main/lib/images/image_main.png)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+On the homepage, there is 1 "Home Page" button, when you press that button, it will go to the login page
+
